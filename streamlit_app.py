@@ -25,3 +25,7 @@ with st.expander('DATA'):
 with st.expander('Data visualization'):
   st.scatter_chart(data=df, x='bill_length_mm', y='body_mass_g', color='species')
 
+# Input features
+with st.siderbar:
+  st.write('hola')
+
