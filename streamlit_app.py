@@ -123,5 +123,4 @@ st.dataframe(df_prediction_proba,
 
 
 penguins_species = np.array(['Adelie', 'Chinstrap', 'Gentoo'])
-st.success(str(penguins_species[prediction][0]))
-penguins_species
+st.success(str(penguins_species[prediction][0])) # esto indica la posición de una matriz [fila][columna]
