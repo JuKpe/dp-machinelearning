@@ -1,5 +1,6 @@
 import streamlit as st
 
-st.title('🎈 App Name')
-
+st.title('🤖 Machine Learning App')
+st.info('This is app builds a machine learning model!')
 st.write('Hello world!')
+
