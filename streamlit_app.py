@@ -19,7 +19,7 @@ with st.expander('DATA'):
   y
 
   st.write('**EDA**')
-  df.describe()
+  st.write(df.describe())
 
 
 with st.expander('Data visualization'):
