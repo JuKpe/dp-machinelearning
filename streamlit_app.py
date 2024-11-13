@@ -27,5 +27,5 @@ with st.expander('Data visualization'):
 
 # Input features
 with st.siderbar:
-  st.write('hola')
+   st.header('Input features')
 
