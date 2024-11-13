@@ -16,3 +16,4 @@ with st.expander('DATA'):
 
   st.write('**y**')
   y = df.species
+  y
