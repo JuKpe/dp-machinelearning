@@ -72,4 +72,5 @@ with st.expander('Data preparation'):
   st.write('**Encoded X (input penguin)**')
   input_row
   st.write('**Encoded y**')
+  st.write('Adelie: 0 - Chinstrap: 1- Gentoo: 2')
   y
