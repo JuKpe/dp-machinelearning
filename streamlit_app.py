@@ -18,6 +18,10 @@ with st.expander('DATA'):
   y = df.species
   y
 
+  st.write('**EDA**')
+  df.describe()
+
+
 with st.expander('Data visualization'):
   st.scatter_chart(data=df, x='bill_length_mm', y='body_mass_g', color='species')
 
